@@ -29,6 +29,6 @@ class String
   def count_sentences
     arr = self.split(/[.?!]/)
     arr.reject! { |c| c.empty? }
-
+    arr
   end
 end
